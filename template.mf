@@ -1,0 +1,18 @@
+Bundle-SymbolicName: com.inet.base.ejb
+Bundle-Name: iNet Solutions Base EJB
+Bundle-Vendor: iNet Solutions
+Bundle-ManifestVersion: 2
+Import-Template: 
+ javax.annotation.*;version="0";resolution:=optional,
+ javax.ejb.*;version="0";resolution:=optional,
+ javax.naming.*;version="0";resolution:=optional,
+ javax.persistence.*;version="${ejb3-persistence.version:[=.=.=.=, +1.0.0.=)}";resolution:=optional,
+ javax.transaction.*;version="0";resolution:=optional,
+ org.hibernate.*;version="${hibernate.version:[=.=.=.=, +1.0.0.=)}";resolution:=optional,
+ org.jboss.ejb3.entity.*;version="${jboss-ejb3.version:[=.=.=.=, +1.0.0.=)}";resolution:=optional,
+ org.slf4j.*;version="${org.slf4j.version:[=.=.=, +1.0.0)}";resolution:=optional
+Ignored-Existing-Headers: 
+ Bnd-LastModified,
+ Import-Package,
+ Export-Package,
+ Tool

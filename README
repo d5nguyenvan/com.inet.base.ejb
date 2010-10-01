@@ -1,0 +1,8 @@
+This project provide the EJB lookup locator.
+
+How to create eclipse project:
+  $mvn eclipse:eclipse
+
+How to build:
+-------------
+  $mvn install package
